@@ -96,10 +96,10 @@ body{
     min-height:18px; 
 }
 
-#cardScene {
+#cardScene { /*Khung lá thư  */
     display:none;
-    width:600px;
-    height:500px;
+    width:500px;
+    height:400px;
     background: linear-gradient(135deg, #f2e8d4, #e6d7bd); /* giấy xám nâu nhạt */
     border-radius:20px;
     box-shadow:0 8px 30px rgba(0,0,0,0.15);
@@ -109,7 +109,7 @@ body{
     transition: opacity 0.8s ease-in-out;
 }
 
-#cardScene video{
+#cardScene video{ /*Khung video  */
     width:85%; 
     border-radius:15px; 
     object-fit:cover; 
@@ -141,7 +141,7 @@ body{
 }
 
 #cardScene p{
-    width:80%;
+    width:100%;
     margin:0 auto 15px;
     color:#333;
     font-size:16px;
