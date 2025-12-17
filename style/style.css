@@ -7,6 +7,8 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
+    position: fixed; /* Cố định body */
+    overflow: hidden; /* Ngăn cuộn */
 }
 
 #lockScreen{
@@ -241,4 +243,5 @@ body{
     line-height: 1.4;
     word-break: break-word;
     overflow: auto;
+
 }
